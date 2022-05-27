@@ -1,0 +1,89 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    /* this sets the footer where it belongs */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+body {
+    background-color: rgba(98, 0, 255, 0.568);
+    color: cornsilk;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(149, 38, 253);
+    border-bottom: 5px solid rgb(246, 250, 2);
+}
+
+h1 {
+    line-height: 0.7;
+  }
+
+.title {
+    color:rgb(255, 255, 255) ;
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+    
+.msg {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    margin: 40px;
+}
+
+
+button {
+    border-radius: 50px;
+    border-color: rgb(246, 250, 2);
+    background-color: rgb(149, 38, 253);
+    color: rgb(255, 255, 255);
+    font-family: inherit;
+    font-size: 30px;
+    font-weight: inherit;
+    cursor: pointer;
+    outline: none;
+    padding: 20px;
+}
+
+.displayController {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.gameBoard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 454px;
+    height: 454px;
+    border: 5px solid rgb(149, 38, 253);
+    margin-left: 730px;
+    
+    
+}
+
+.field {
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(149, 38, 253);
+    background-color: rgb(219, 219, 219);
+    font-size: 100px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    color: rgb(255, 0, 212);
+}
+
+.field:hover {
+    background-color: rgb(243, 241, 147);
+}
